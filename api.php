@@ -1,4 +1,5 @@
 <?php
+// Made By PythonScratcher (PythonScratcher.eu.org) (THIS CREDIT IS REQUIRED) 
 if (isset($_GET['url'])) {
     $url = $_GET['url'];
 
@@ -27,6 +28,7 @@ if (isset($_GET['url'])) {
     $shortUrl = "http://" . $domain . "/$directory";
 
     echo "$shortUrl";
+    echo "<!-- Made By PythonScratcher (PythonScratcher.eu.org) (THIS CREDIT IS REQUIRED) -->";
 }
 ?>
 
